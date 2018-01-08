@@ -3,11 +3,14 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-image: url('img/background.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: top;
+    background-image: -webkit-gradient(linear, 534 187, 0 0, from(#02abd4), to(#015476));
+    background-image: -webkit-linear-gradient(160.7003957227611deg, #02abd4, #015476);
+    background-image: -moz-linear-gradient(160.7003957227611deg, #02abd4, #015476);
+    background-image: -o-linear-gradient(160.7003957227611deg, #02abd4, #015476);
+    background-image: linear-gradient(289.2996042772389deg, #02abd4, #015476)
+
 }
+
 
 .content {
     width: 90%;
@@ -17,6 +20,7 @@ body {
 
 .hero {
     height: 100vh;
+    color: #fff;
 
 
 
@@ -25,10 +29,24 @@ body {
     display: flex;
     margin-left: 60%;
     padding: 17px 0;
-    font-weight: 400;
+    font-weight: 500;
 
+}
+
+.top-nav-text {
+    margin-right: 22px;
 }
 
 .phone {
     margin-right: 22px;
+}
+
+
+.place{
+    margin-right: 22px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
 }
