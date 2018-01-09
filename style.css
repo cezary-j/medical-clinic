@@ -15,13 +15,13 @@ body {
 }
 
 
-/*.img-container {*/
-    /*display:flex;*/
-    /*justify-content: flex-end;*/
+.img-container {
+    display:flex;
+    justify-content: flex-end;
     /*margin-right: -30px;*/
     /*margin-top: -400px;*/
     /*z-index: 0;*/
-/*}*/
+}
 
 
 
@@ -80,12 +80,13 @@ nav {
     margin-top: 37px;
     font-weight: 500;
 
+
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
-    padding-right: 400px;
+    justify-content: flex-start;
+    /*padding-right: 400px;*/
 
 }
 
@@ -106,40 +107,31 @@ nav ul li a {
 /*  TITLE SECTION  */
 
 #title {
-    padding-top: 11px;
     text-transform: uppercase;
-    flex-grow: 1;
 }
 
 .main-title {
-    flex-grow: 1;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    /*display: flex;*/
-    /*justify-content: center;*/
 
-    /*margin-right: 400px;*/
-    /*font-size: 3.37em;*/
     font-weight: 800;
-    margin-left: 100px;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: center;
 
 }
-/*.small-title {*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*text-transform: uppercase;*/
-    /*margin-right: 400px;*/
-    /*font-size: 1.25em;*/
-    /*font-weight: 400;*/
-    /*padding-top: 2vh;*/
-    /*color: #00bae1;*/
 
-/*}*/
+@media (max-width: 1674px) {
+    .main-title {
+        margin-left: 10%;
+    }
+}
+
 
 .button {
-
     height: 50px;
-    width: 212px;
+    width: 220px;
     margin-top: 40px;
     background-color: #9a12d5;
     border: none;
@@ -148,20 +140,17 @@ nav ul li a {
     font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
-
 }
 
-/*.button {*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*margin-right: 400px;*/
-    /*padding-top: 56px;*/
-/*}*/
+
 
 
 .content-img {
     display: flex;
     align-items: center;
+    flex-direction: row;
+
+
 }
 
 .company-name {
@@ -171,4 +160,14 @@ nav ul li a {
 .company-text {
     font-size: 1.25em;
     font-weight: 400;
+    color: #96e6fa;
+}
+
+.img {
+
+}
+
+.offer {
+    height: 500px;
+    background-color: white;
 }
