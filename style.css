@@ -18,24 +18,8 @@ body {
 .img-container {
     display:flex;
     justify-content: flex-end;
-    /*margin-right: -30px;*/
-    /*margin-top: -400px;*/
-    /*z-index: 0;*/
 }
 
-
-
-/*@media(max-width: 1200px) {*/
-    /*.img-container img {*/
-        /*height: 500px;*/
-        /*width: 450px;*/
-    /*}*/
-    /*nav {*/
-        /*display: flex;*/
-        /*justify-content: flex-start;*/
-    /*}*/
-
-/*}*/
 
 #woman{
     width: 300px;
@@ -170,4 +154,28 @@ nav ul li a {
 .offer {
     height: 500px;
     background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+
+.container-block {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: -90px;
+    margin-bottom: -90px;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.container-block div {
+    height: 174px;
+    width: 33%;
+    background-color: green;
+    z-index: 100;
+    display: flex;
+    align-content: center;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
 }
