@@ -8,9 +8,11 @@ body {
 
 
 .content {
-    max-width: 90%;
+    max-width: 1366px;
     margin: 0 auto;
     height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 
 }
 
@@ -100,7 +102,7 @@ nav ul li a {
     flex-direction: column;
 
     font-weight: 800;
-    margin-left: 25%;
+    /*margin-left: 25%;*/
     align-items: center;
     justify-content: center;
 
@@ -132,7 +134,6 @@ nav ul li a {
 .content-img {
     display: flex;
     align-items: center;
-    flex-direction: row;
 
 
 }
@@ -153,7 +154,7 @@ nav ul li a {
 
 .offer {
     height: 500px;
-    background-color: white;
+    background-color: #f1f8fe;
     position: relative;
     z-index: 1;
 }
@@ -161,21 +162,28 @@ nav ul li a {
 
 .container-block {
     display: flex;
-    justify-content: space-around;
-    position: relative;
+    justify-content: center;
     margin-top: -90px;
     margin-bottom: -90px;
-    padding-left: 11%;
-    padding-right: 11%;
+    align-items: stretch;
+    z-index: 90;
+    position: relative;
+    box-shadow: 0 5px 5px -5px rgba(0,0,0,0.2);
+
+
 }
 
 .container-block div {
     height: 174px;
-    width: 33%;
-    background-color: green;
+    width: 450px;
+    background-color: #fff;
     z-index: 100;
-    display: flex;
-    align-content: center;
-    /*padding-left: 15px;*/
-    /*padding-right: 15px;*/
+    border-radius: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+
+
 }
+
