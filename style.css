@@ -68,10 +68,11 @@ body {
 }
 
 h2 {
-    margin-top: -30px;
+
     text-transform: uppercase;
     text-align: center;
     font-size: 3em;
+    font-weight: 400;
 }
 
 
@@ -79,7 +80,7 @@ h2 {
 
 nav {
     margin-top: 37px;
-    font-weight: 500;
+    font-weight: 300;
 
 }
 
@@ -101,7 +102,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #494949;
     padding: 0 85px 0 0;
 }
 
@@ -128,7 +129,7 @@ nav ul li a {
     margin-top: 40px;
     background-color: #BBEAD8;
     border: none;
-    border-radius: 1px;
+    border-radius: 25px;
     color: #fff;
     font-size: 1.25em;
     font-weight: 600;
@@ -155,6 +156,7 @@ nav ul li a {
     font-size: 1.25em;
     font-weight: 400;
     color: #CEF4E5;
+    margin-top: -20px;
 }
 
 .img {
@@ -199,18 +201,18 @@ nav ul li a {
 }
 
 .box h3 {
-    color:#e95634;
+    color:#BBEAD8;
     font-weight: 500;
     font-size: 1.12em;
 }
 .box h4 {
-    color:#34C7E9;
+    color:#494949;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 .offer-icons {
-    width: 50px;
-    height: 50px;
+    width: 30%;
+    height: 30%;
 }
 
 @media (max-width: 1135px) {
@@ -273,13 +275,15 @@ nav ul li a {
 
 #about {
     height: 100%;
-    background-color: #f1f8fe;
+    background-color: #fcfcfc;
     /*position: relative;*/
     z-index: 1;
     margin-top: -50px;
 }
 
-
+#about h2 {
+    padding-top: 13vh;
+}
 
 .container-about {
     display: flex;
@@ -312,9 +316,9 @@ nav ul li a {
     height: 50px;
     width: 220px;
     margin-top: 4vh;
-    background-color: #e95634;
+    background-color: #BBEAD8;
     border: none;
-    border-radius: 1px;
+    border-radius: 25px;
     color: #fff;
     font-size: 1.25em;
     font-weight: 600;
@@ -323,19 +327,53 @@ nav ul li a {
 
 /*  SECTION HAIR OFFER  */
 
-#hair-offer {
+#treatments {
     height: 700px;
-    background-color: #f1f8fe;
 }
-#hair-offer h2 {
-    padding-top:170px;
+#treatments h2 {
+    padding-top:15vh;
     margin: 0;
 }
+.treatments-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13vh;
+    background-color: #fff;
 
-hr {
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #fff;
-    margin: 1em 0;
-    padding: 0;
+
+}
+
+.img-treatments {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+
+.legs-img {
+    background-image: url('img/legs.png');
+
+}
+
+.box-treatments {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    width: 33%;
+    height: 350px;
+
+}
+.face-img {
+    background-image: url('img/face.png');
+
+}
+.neck-img {
+    background-image: url('img/szyja.png');
+
+
+}
+.photo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
 }
