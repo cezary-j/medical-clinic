@@ -3,10 +3,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     /*background-image: linear-gradient(289.2996042772389deg, #02abd4, #015476)*/
-    background: -moz-linear-gradient(left, #35b5e8 0%, #35baea 27%, #34c7e9 86%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #35b5e8 0%,#35baea 27%,#34c7e9 86%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #35b5e8 0%,#35baea 27%,#34c7e9 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35b5e8', endColorstr='#34c7e9',GradientType=1 ); /* IE6-9 */
+     /* IE6-9 */
 }
 
 
@@ -28,6 +25,10 @@ body {
 .hero {
     height: 100%;
     color: #fff;
+    /*background: -moz-linear-gradient(left, #35b5e8 0%, #35baea 27%, #34c7e9 86%); !* FF3.6-15 *!*/
+    /*background: -webkit-linear-gradient(left, #35b5e8 0%,#35baea 27%,#34c7e9 86%); !* Chrome10-25,Safari5.1-6 *!*/
+    /*background: linear-gradient(to right, #35b5e8 0%,#35baea 27%,#34c7e9 86%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35b5e8', endColorstr='#34c7e9',GradientType=1 );*/
 
 
 
@@ -57,6 +58,14 @@ body {
     display: flex;
     justify-content: flex-start;
 }
+
+h2 {
+    padding-top: 170px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+}
+
 
     /* NAV */
 
@@ -150,14 +159,17 @@ nav ul li a {
     margin-top: -90px;
     margin-bottom: -110px;
     z-index: 90;
+
     position: relative;
     box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
     text-transform: uppercase;
+
+
 }
 
 
 .box {
-    height: 174px;
+    height: 160px;
     width: 33%;
     background-color: #fff;
     z-index: 100;
@@ -241,9 +253,8 @@ nav ul li a {
 @media (max-width: 860px) {
     .container-block {
         display: flex;
-
         margin-top: 80px;
-        margin-bottom: -110px;
+        margin-bottom: -40px;
     }
 }
 
@@ -256,14 +267,10 @@ nav ul li a {
     background-color: #f1f8fe;
     /*position: relative;*/
     z-index: 1;
+    margin-top: -50px;
 }
 
-#about h2 {
-    padding-top: 170px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 3em;
-}
+
 
 .container-about {
     display: flex;
@@ -272,6 +279,7 @@ nav ul li a {
 }
 .text-about {
     padding-right: 6vw;
+    line-height: 3vh;
 }
 
 @media (max-width: 960px) {
@@ -307,6 +315,18 @@ nav ul li a {
 /*  SECTION HAIR OFFER  */
 
 #hair-offer {
-    height: 400px;
+    height: 700px;
     background-color: #f1f8fe;
+}
+#hair-offer h2 {
+    padding-top:170px;
+    margin: 0;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 1em 0;
+    padding: 0;
 }
