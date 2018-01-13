@@ -377,3 +377,27 @@ nav ul li a {
     height: 200px;
     width: 100%;
 }
+
+.treatment-text {
+    display: flex;
+    justify-content: center;
+}
+.treatment-text h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.button-container .button {
+   font-size: 0.9em;
+    width: 150px;
+    margin: 10px 0;
+
+}
+
+.button-3 {
+
+}
