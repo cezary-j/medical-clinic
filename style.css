@@ -134,6 +134,7 @@ nav ul li a {
     font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
+    cursor:pointer;
 }
 
 
@@ -323,6 +324,7 @@ nav ul li a {
     font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /*  SECTION HAIR OFFER  */
@@ -398,9 +400,13 @@ nav ul li a {
 
 }
 
+
+/*  Contact  */
+
 #contact {
-    height: 700px;
+    height:800px;
     background-color: #fcfcfc ;
+    padding-bottom: 5vh;
 
 }
 
@@ -427,9 +433,13 @@ nav ul li a {
     background: transparent;
 }
 
-input {
+input,textarea {
     height: 50px;
+    font-size: 0.8em;
 }
+
+
+/*  transition */
 
 input[type='text'], [type='email'], select, textarea {
 
@@ -438,8 +448,66 @@ input[type='text'], [type='email'], select, textarea {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+
 }
 input[type='text']:focus, [type='email']:focus, textarea:focus {
     outline: none;
     padding: 0 0 0.875em 0;
+    font-size: 0.6em;
+
+}
+
+
+#message_input {
+    border: 1px solid #BBEAD8;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    width: 100%;
+    padding-top: 12vh;
+}
+
+.send-button {
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+/*  FOOTER  */
+
+
+
+footer {
+    height: 100%;
+    background-color: #363636;
+    padding-bottom: 5vh;
+}
+
+
+.bottom-nav-content {
+    display: flex;
+    justify-content: flex-end;
+    padding: 7vh 0;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+
+}
+
+
+.bottom-nav-text {
+    margin-right: 22px;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.author {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.7em;
+
 }
